@@ -2,7 +2,7 @@
 ##Fall 2022
 
 Welcome to my lab reports. 
-Everything is very stressful, so let's enjoy some cute cat ascii arts.
+Everything is very stressful, so let's enjoy some cute cat ascii arts and relax.
 
 
  <pre>
