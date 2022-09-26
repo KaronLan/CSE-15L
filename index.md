@@ -15,6 +15,6 @@ Everything is very stressful, so let's enjoy some cute cat ascii arts and relax.
 
 ---
 
-![Image](https://github.com/KaronLan/cse15l-lab-reports/blob/main/cat%20ascii.png)
+![Image](cat ascii.png)
 
 > This cat is also very **cute**.
