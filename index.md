@@ -18,7 +18,7 @@ Everything is very stressful, so let's enjoy some cute cat ascii arts and relax.
     |\__/,|   (`\
   _.|o o  |_   ) )
 -(((---(((--------
-<pre>
+</pre>
 
 > This cat is also very **cute**.
 
