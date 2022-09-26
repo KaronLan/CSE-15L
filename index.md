@@ -14,10 +14,9 @@ Everything is very stressful, so let's enjoy some cute cat ascii arts and relax.
 *I find this cat on *[this website](https://www.asciiart.eu/animals/cats)
 
 ---
-
-
-![Image][1]
+![]
+(https://github.com/KaronLan/cse15l-lab-reports/blob/main/image/cat%20ascii.png)
 
 
 > This cat is also very **cute**.
-[1]: https://github.com/KaronLan/cse15l-lab-reports/blob/main/image/cat%20ascii.png
+
