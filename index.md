@@ -1,10 +1,11 @@
 # CSE 15L
-## Fall 2022
+##Fall 2022
 
-***
 Welcome to my lab reports. 
-It is very stressful, so let's enjoy some cute cat ascii arts.
+Everything is very stressful, so let's enjoy some cute cat ascii arts.
+
 ---
+
  <pre>
  /\_/\
 ( o.o )
