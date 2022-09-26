@@ -11,10 +11,10 @@ Everything is very stressful, so let's enjoy some cute cat ascii arts and relax.
  > ^ <
 </pre>
 
-*I find this cat on *[this website](https://github.com/KaronLan/cse15l-lab-reports/blob/main/image/cat%20ascii.png)
+*I find this cat on *[this website](https://www.asciiart.eu/animals/cats)
 
 ---
 
-![Image](cat ascii.png)
+![Image](https://github.com/KaronLan/cse15l-lab-reports/blob/main/image/cat%20ascii.png)
 
 > This cat is also very **cute**.
