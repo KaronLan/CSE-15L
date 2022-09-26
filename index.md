@@ -4,7 +4,6 @@
 Welcome to my lab reports. 
 Everything is very stressful, so let's enjoy some cute cat ascii arts.
 
----
 
  <pre>
  /\_/\
@@ -13,6 +12,8 @@ Everything is very stressful, so let's enjoy some cute cat ascii arts.
 </pre>
 
 *I find this cat on *[this website](https://www.asciiart.eu/animals/cats)
+
+---
 
 ![Image](https://github.com/KaronLan/cse15l-lab-reports/blob/main/cat%20ascii.png)
 
