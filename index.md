@@ -7,7 +7,9 @@ Welcome to my lab reports. 📄
 As a lab course, cse 15L has weekly labs, and we need to turn in lab reports biweekly.
 
 ---
-Here is the link to my [lab report 1](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-report-1-week-0.md).
+Here is the link to my
+* [lab report 0](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-report-1-week-0.md).
+* [Lab report 1](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-report-1-week-1.md).
 
 There is also another [link for cats](https://github.com/KaronLan/cse15l-lab-reports/blob/main/cats.md).
 
@@ -15,7 +17,6 @@ Finally a picture of a cat.![cat](https://github.com/KaronLan/cse15l-lab-reports
 
 
 There will be more lab reports coming up.
-* Lab report 1
 * Lab report 2
 * Lab report 3
 * Lab report 4
