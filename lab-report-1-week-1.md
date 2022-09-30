@@ -1,16 +1,15 @@
-In this lab. we will learn about  how to log into a course specific account on ieng6.
+In this lab. we will learn about  how to log into a course specific account on ieng6.<br/>
 There are six steps that we are going to do during the lab:
-1. We will install VScode (if not already installed) where we can use the terminal.
-  Here is a screenshot of what the VScode should look like when you open it up.
-
+1. We will install VScode (if not already installed) where we can use the terminal.<br/>
+  Here is a screenshot of what the VScode should look like when you open it up.<br/>
   Open a terminal.
 
-2. We will remotely connect to a remote server.
-  In the terminal, use `$ ssh cs15lfa22zz@ieng6.ucsd.edu` to connect to a remote server.
-  (Remember to replace "zz" with the letters in your course-specific account.)
-  A prompt will appear to ask if you want to `continue connecting (yes/no/[fingerpring])`,
-  and be sure to type in yes.
-  Then, put in the password when prompted. Congratulations, you successfully connects 
+2. We will remotely connect to a remote server.<br/>
+  In the terminal, use `$ ssh cs15lfa22zz@ieng6.ucsd.edu` to connect to a remote server.<br/>
+  (Remember to replace "zz" with the letters in your course-specific account.)<br/>
+  A prompt will appear to ask if you want to `continue connecting (yes/no/[fingerpring])`,<br/>
+  and be sure to type in yes.<br/>
+  Then, put in the password when prompted. Congratulations, you successfully connects<br/>
   to a remote server.
 
 3. We will try some command on the server to get an idea of what we can do with it.
@@ -27,31 +26,30 @@ There are six steps that we are going to do during the lab:
 4. We will move files to the remote server using scp.
   First, create a file on your local computer.
   `class WhereAmI {
-  public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
-    System.out.println(System.getProperty("user.name"));
-    System.out.println(System.getProperty("user.home"));
-    System.out.println(System.getProperty("user.dir"));
-   }
-  }`
-  Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.
-  Run the file in on the remote server. It should be there.
+  public static void main(String[] args) {<br/>
+    System.out.println(System.getProperty("os.name"));<br/>
+    System.out.println(System.getProperty("user.name"));<br/>
+    System.out.println(System.getProperty("user.home"));<br/>
+    System.out.println(System.getProperty("user.dir"));<br/>
+   }<br/>
+  }`<br/>
+  Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.<br/>
+  Run the file in on the remote server. It should be there.<br/>
 
 
-5. We will set an SSH key to log in without password.
-  on client, use command `$ ssh-keygen` and you will get:
-  `Generating public/private rsa key pair.
-  Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
-  Enter passphrase (empty for no passphrase): 
-  Enter same passphrase again: `
-
-  on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`
-  on server, use command `$ mkdir .ssh and then <logout>`
+5. We will set an SSH key to log in without password.<br/>
+  on client, use command `$ ssh-keygen` and you will get:<br/>
+  `Generating public/private rsa key pair.<br/>
+  Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa<br/>
+  Enter passphrase (empty for no passphrase): <br/>
+  Enter same passphrase again: `<br/>
+  on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`<br/>
+  on server, use command `$ mkdir .ssh and then <logout>`<br/>
   back on client, use command `$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 
-6. We will optimize remote running to ensure a better experience.
-  Try these two lines of command
-  * `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`
-  * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+6. We will optimize remote running to ensure a better experience.<br/>
+  Try these two lines of command<br/>
+  * `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`<br/>
+  * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`<br/>
   * You can also use up-arrow to recall last command, or use !command number to recall previous commands.
