@@ -47,9 +47,9 @@ There are six steps that we are going to do during the lab:
   Enter passphrase (empty for no passphrase): 
   Enter same passphrase again: 
   ```
-  on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`<br/>
-  on server, use command `$ mkdir .ssh and then <logout>`<br/>
-  back on client, use command `$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+  <pre>on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`<br/>
+  <pre>on server, use command `$ mkdir .ssh and then <logout>`<br/>
+  <pre>back on client, use command `$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
 
 
 6. We will optimize remote running to ensure a better experience.<br/>
