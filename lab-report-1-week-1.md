@@ -4,6 +4,7 @@ There are six steps that we are going to do during the lab:
   Here is a screenshot of what the VScode should look like when you open it up.
 
   Open a terminal.
+
 2. We will remotely connect to a remote server.
   In the terminal, use $ ssh cs15lfa22zz@ieng6.ucsd.edu to connect to a remote server.
   (Remember to replace "zz" with the letters in your course-specific account.)
@@ -17,7 +18,7 @@ There are six steps that we are going to do during the lab:
   * cd
   * ls -lat
   * ls -a
-  * * ls <directory> where <directory /home/linux/ieng6/cs15lfa22/cs15lfa22zz 
+  * ls <directory> where <directory /home/linux/ieng6/cs15lfa22/cs15lfa22zz 
                                       (zz is the last two  the letters in your 
                                       groupmate's course-specific account)
   * cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/
@@ -45,14 +46,9 @@ Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
 
-# on client
-$ ssh cs15lfa22zz@ieng6.ucsd.edu
-<Enter Password>
-# now on server
-$ mkdir .ssh
-$ <logout>
-# back on client
-$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
+on client, use command $ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>
+on server, use command $ mkdir .ssh and then <logout>
+back on client, use command $ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys
 
 
 6. We will optimize remote running to ensure a better experience.
