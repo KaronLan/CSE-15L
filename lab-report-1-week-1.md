@@ -2,6 +2,7 @@ In this lab. we will learn about  how to log into a course specific account on i
 There are six steps that we are going to do during the lab:
 1. We will install VScode (if not already installed) where we can use the terminal.<br/>
   Here is a screenshot of what the VScode should look like when you open it up.<br/>
+  ![VScode](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%201.png) <br/>
   Open a terminal.
 
 2. We will remotely connect to a remote server.<br/>
