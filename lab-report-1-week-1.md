@@ -25,14 +25,16 @@ There are six steps that we are going to do during the lab:
 
 4. We will move files to the remote server using scp.
   First, create a file on your local computer.
-  `class WhereAmI {  
+  ```
+  class WhereAmI {  
    public static void main(String[] args) {  
     System.out.println(System.getProperty("os.name"));  
     System.out.println(System.getProperty("user.name"));  
     System.out.println(System.getProperty("user.home"));  
     System.out.println(System.getProperty("user.dir"));  
    }  
-  }`<br/>
+  }
+  ```<br/>
   Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.<br/>
   Run the file in on the remote server. It should be there.<br/>
 
