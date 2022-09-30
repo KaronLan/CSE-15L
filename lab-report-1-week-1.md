@@ -15,7 +15,7 @@ There are six steps that we are going to do during the lab:
   Then, put in the password when prompted. Congratulations, you successfully connects to a remote server.
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%204.png).
 
-**3. We will try some command on the server to get an idea of what we can do with it. **
+**3. We will try some command on the server to get an idea of what we can do with it.**
   * `cd~`
   * `cd`
   * `ls -lat`
