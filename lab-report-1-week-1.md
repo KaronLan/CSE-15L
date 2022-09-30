@@ -29,7 +29,7 @@ There are six steps that we are going to do during the lab:
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-2.png)
 
 
-**4. We will move files to the remote server using scp. **
+**4. We will move files to the remote server using scp.**
   First, create a file on your local computer.
   ```
   class WhereAmI {  
