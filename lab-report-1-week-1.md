@@ -12,6 +12,7 @@ There are six steps that we are going to do during the lab:
   and be sure to type in yes.<br/>
   Then, put in the password when prompted. Congratulations, you successfully connects<br/>
   to a remote server.
+  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%204.png).
 
 3. We will try some command on the server to get an idea of what we can do with it.
   * `cd~`
@@ -23,6 +24,8 @@ There are six steps that we are going to do during the lab:
                                       groupmate's course-specific account)
   * `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
   * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
+  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-1.png)
+  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-2.png)
 
 4. We will move files to the remote server using scp.
   First, create a file on your local computer.
@@ -38,6 +41,7 @@ There are six steps that we are going to do during the lab:
   ```
     Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.<br/>
     Run the file in on the remote server. It should be there.<br/>
+  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%206.png)
 
 
 5. We will set an SSH key to log in without password.<br/>
@@ -51,6 +55,7 @@ There are six steps that we are going to do during the lab:
   &nbsp;on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`<br/>
   &nbsp;on server, use command `$ mkdir .ssh and then <logout>`<br/>
   &nbsp;back on client, use command `$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
+  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%207.png)
 
 
 6. We will optimize remote running to ensure a better experience.<br/>
@@ -58,3 +63,4 @@ There are six steps that we are going to do during the lab:
   * `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`<br/>
   * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`<br/>
   * You can also use up-arrow to recall last command, or use !command number to recall previous commands.
+ ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%208.png)
