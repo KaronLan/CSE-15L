@@ -34,7 +34,7 @@ There are six steps that we are going to do during the lab:
     System.out.println(System.getProperty("user.dir"));  
    }  
   }
-  ```<br/>
+  ```
   Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.<br/>
   Run the file in on the remote server. It should be there.<br/>
 
