@@ -41,10 +41,12 @@ There are six steps that we are going to do during the lab:
 
 5. We will set an SSH key to log in without password.<br/>
   on client, use command `$ ssh-keygen` and you will get:<br/>
-  `Generating public/private rsa key pair.<br/>
-  Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa<br/>
-  Enter passphrase (empty for no passphrase): <br/>
-  Enter same passphrase again: `<br/>
+  ```
+  Generating public/private rsa key pair.
+  Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+  Enter passphrase (empty for no passphrase): 
+  Enter same passphrase again: 
+  ```
   on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`<br/>
   on server, use command `$ mkdir .ssh and then <logout>`<br/>
   back on client, use command `$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
