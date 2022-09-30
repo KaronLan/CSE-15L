@@ -1,11 +1,13 @@
 In this lab. we will learn about  how to log into a course specific account on ieng6.<br/>
 There are six steps that we are going to do during the lab:
-1. We will install VScode (if not already installed) where we can use the terminal.<br/>
+
+**1. We will install VScode (if not already installed) where we can use the terminal.**<br/>
   Here is a screenshot of what the VScode should look like when you open it up.<br/>
   ![VScode](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%201.png) <br/>
   Open a terminal.
 
-2. We will remotely connect to a remote server.<br/>
+
+**2. We will remotely connect to a remote server.**<br/>
   In the terminal, use `$ ssh cs15lfa22zz@ieng6.ucsd.edu` to connect to a remote server.<br/>
   (Remember to replace "zz" with the letters in your course-specific account.)<br/>
   A prompt will appear to ask if you want to `continue connecting (yes/no/[fingerpring])`,<br/>
@@ -13,7 +15,7 @@ There are six steps that we are going to do during the lab:
   Then, put in the password when prompted. Congratulations, you successfully connects to a remote server.
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%204.png).
 
-3. We will try some command on the server to get an idea of what we can do with it.
+**3. We will try some command on the server to get an idea of what we can do with it. **
   * `cd~`
   * `cd`
   * `ls -lat`
@@ -26,7 +28,8 @@ There are six steps that we are going to do during the lab:
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-1.png)
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-2.png)
 
-4. We will move files to the remote server using scp.
+
+**4. We will move files to the remote server using scp. **
   First, create a file on your local computer.
   ```
   class WhereAmI {  
@@ -43,7 +46,8 @@ There are six steps that we are going to do during the lab:
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%206.png)
 
 
-5. We will set an SSH key to log in without password.<br/>
+
+**5. We will set an SSH key to log in without password.<br/>**
   on client, use command `$ ssh-keygen` and you will get:<br/>
   ```
   Generating public/private rsa key pair.
@@ -57,7 +61,7 @@ There are six steps that we are going to do during the lab:
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%207.png)
 
 
-6. We will optimize remote running to ensure a better experience.<br/>
+**6. We will optimize remote running to ensure a better experience.<br/>**
   Try these two lines of command<br/>
   * `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`<br/>
   * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`<br/>
