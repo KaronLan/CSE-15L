@@ -10,8 +10,7 @@ There are six steps that we are going to do during the lab:
   (Remember to replace "zz" with the letters in your course-specific account.)<br/>
   A prompt will appear to ask if you want to `continue connecting (yes/no/[fingerpring])`,<br/>
   and be sure to type in yes.<br/>
-  Then, put in the password when prompted. Congratulations, you successfully connects<br/>
-  to a remote server.
+  Then, put in the password when prompted. Congratulations, you successfully connects to a remote server.
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%204.png).
 
 3. We will try some command on the server to get an idea of what we can do with it.
