@@ -39,8 +39,7 @@ There are six steps that we are going to do during the lab:
 
 
 5. We will set an SSH key to log in without password.
-  # on client (your computer)
-$ ssh-keygen
+  on client, use command $ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
 Enter passphrase (empty for no passphrase): 
