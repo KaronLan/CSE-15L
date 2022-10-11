@@ -9,7 +9,7 @@ As a lab course, cse 15L has weekly labs, and we need to turn in lab reports biw
 ---
 Here is the link to my
 * [lab report 0](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-report-1-week-0.md).
-* [Lab report 1](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-report-1-week-1.md).
+* [Lab report 1](/lab-report-1-week-1.html).
 
 There is also another [link for cats](https://github.com/KaronLan/cse15l-lab-reports/blob/main/cats.md).
 
