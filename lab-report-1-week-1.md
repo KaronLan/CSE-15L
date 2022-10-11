@@ -41,9 +41,9 @@ There are six steps that we are going to do during the lab:
    }  
   }
   ```
-    Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.
+  Then, use `scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/` to move files to the remote server.
     
-    Run the file in on the remote server. It should be there.
+  Run the file in on the remote server. It should be there.
     
   ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%206.png)
 
