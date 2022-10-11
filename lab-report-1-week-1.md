@@ -3,7 +3,7 @@ There are six steps that we are going to do during the lab:
 
 **1. We will install VScode (if not already installed) where we can use the terminal.**<br/>
   Here is a screenshot of what the VScode should look like when you open it up.<br/>
-  ![VScode](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%201.png) <br/>
+  ![VScode](lab-1-screenshots/Part%201.png) <br/>
   Open a terminal.
 
 
@@ -13,7 +13,7 @@ There are six steps that we are going to do during the lab:
   A prompt will appear to ask if you want to `continue connecting (yes/no/[fingerpring])`,<br/>
   and be sure to type in yes.<br/>
   Then, put in the password when prompted. Congratulations, you successfully connects to a remote server.
-  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%204.png).
+  ![](lab-1-screenshots/Part%204.png).
 
 **3. We will try some command on the server to get an idea of what we can do with it.**
   * `cd~`
@@ -25,8 +25,8 @@ There are six steps that we are going to do during the lab:
                                       groupmate's course-specific account)
   * `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`
   * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`
-  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-1.png)
-  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%205-2.png)
+  ![](lab-1-screenshots/Part%205-1.png)
+  ![](lab-1-screenshots/Part%205-2.png)
 
 
 **4. We will move files to the remote server using scp.**
@@ -45,7 +45,7 @@ There are six steps that we are going to do during the lab:
     
   Run the file in on the remote server. It should be there.
     
-  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%206.png)
+  ![](lab-1-screenshots/Part%206.png)
 
 
 
@@ -60,7 +60,7 @@ There are six steps that we are going to do during the lab:
   &nbsp;on client, use command `$ ssh cs15lfa22zz@ieng6.ucsd.edu and then <Enter Password>`<br/>
   &nbsp;on server, use command `$ mkdir .ssh and then <logout>`<br/>
   &nbsp;back on client, use command `$ scp /Users/joe/.ssh/id_rsa.pub cs15lfa22@ieng6.ucsd.edu:~/.ssh/authorized_keys`
-  ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%207.png)
+  ![](lab-1-screenshots/Part%207.png)
 
 
 **6. We will optimize remote running to ensure a better experience.<br/>**
@@ -68,4 +68,4 @@ There are six steps that we are going to do during the lab:
   * `$ ssh cs15lfa22@ieng6.ucsd.edu "ls"`<br/>
   * `$ cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`<br/>
   * You can also use up-arrow to recall last command, or use !command number to recall previous commands.
- ![](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-1-screenshots/Part%208.png)
+ ![](lab-1-screenshots/Part%208.png)
