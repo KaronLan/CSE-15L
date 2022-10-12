@@ -19,8 +19,8 @@ There are six steps that we are going to do during the lab:
 **3. We will try some command on the server to get an idea of what we can do with it.**
   * `cd~`: change to home directory
   * `cd`: change directory
-  * `ls -lat`: list
-  * `ls -a`
+  * `ls -lat`: list all the users on the server
+  * `ls -a`: list all entries
   * `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lfa22/cs15lfa22zz`
                                       (zz is the last two  the letters in your 
                                       groupmate's course-specific account)
