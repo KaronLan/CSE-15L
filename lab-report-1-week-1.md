@@ -25,7 +25,7 @@ There are six steps that we are going to do during the lab:
                                       (zz is the last two  the letters in your 
                                       groupmate's course-specific account): list all the files in this directory
   * `cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/`: copy a file or a directory
-  * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`: create file
+  * `cat /home/linux/ieng6/cs15lfa22/public/hello.txt`: run the indicated file
   ![](lab-1-screenshots/Part%205-1.png)
   ![](lab-1-screenshots/Part%205-2.png)
 
