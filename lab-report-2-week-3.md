@@ -59,13 +59,11 @@ class SearchEngine {
 }
 ```
 ![](lab-2-screenshots/searchEngine.png)
-my code does not work at all.
 * Method called: handleRequest
 * Values of the relevant arguments: localhost:5002
 * Values of relevant fields of the class: Nothing is changed in this method. We only open up the webpage.
 
 ![](lab-2-screenshots/add1.png)
-There is a null pointer exception that I don't know how to fix.
 * Method called: handleRequest
 * Values of the relevant arguments:  localhost:5002/add?s=apple
 * Values of relevant fields of the class: ArrayList items = [apple]
@@ -75,7 +73,7 @@ There is a null pointer exception that I don't know how to fix.
 * Method called: handleRequest
 * Values of the relevant arguments: localhost:5002/search?s=app
 * Values of relevant fields of the class: <br/>
-ArrayList items = [apple]. ArrayList output = [apple]
+ArrayList items = [apple, pineapple]. ArrayList output = [apple, pineapple]
 * Change: when handleRequest is called, we loop through ArrayList items to see if there is a word containing "app" the query.
 
 
