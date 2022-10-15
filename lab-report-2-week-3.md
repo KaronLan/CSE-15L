@@ -1,6 +1,6 @@
 Part 1
 
-Part 2
+**Part 2**
 1. In ListExample, method filter, the failure inducing input is:
     ```
     @Test
@@ -23,7 +23,7 @@ Part 2
       Since it says increase index1 instead of index2, the condition of the while loop will always be met, and it becomes an infinite loop.
       Thus, it goes out of memory.
 
-2. In ArrayList, method reversedInPlace, the failure input is:
+2. In ArrayList, method reversedInPlace, the failure input is:<br/>
     ```
     @Test
   public void testReverseInPlace2(){
