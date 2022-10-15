@@ -1,4 +1,5 @@
-Part 1
+## Lab Report 2
+**Part 1**
 
 **Part 2**
 1. In ListExample, method filter, the failure inducing input is:<br/>
