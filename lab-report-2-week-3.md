@@ -6,22 +6,22 @@ Part 1
     @Test
     public void testFilteris(){
         String[] contents = {"apple", "banana", "cheery", "dragon fruit", "eggplant"};
-	    List<String> agl = Arrays.asList(contents);
-	    String[] result = {"banana", "cheery", "dragon fruit", "eggplant"};
-	    agl = ListExamples.filter(agl, new lengthLongerThan5());
-	    assertArrayEquals(result, agl.toArray());
+	List<String> agl = Arrays.asList(contents);
+	String[] result = {"banana", "cheery", "dragon fruit", "eggplant"};
+	agl = ListExamples.filter(agl, new lengthLongerThan5());
+	assertArrayEquals(result, agl.toArray());
     }
     ```
-     the symptom is an Out of Memory Error<br/>
-     ![](lab-2-screenshots/filterSymptom.png)
-     the bug is:<br/>
-     ```
-     while(index2 < list2.size()) {
-      result.add(list2.get(index2));
-      index1 += 1;
-      ```
-      Since it says increase index1 instead of index2, the condition of the while loop will always be met, and it becomes an infinite loop.<br/>
-      Thus, it goes out of memory.<br/>
+    the symptom is an Out of Memory Error<br/>
+    ![](lab-2-screenshots/filterSymptom.png)
+    the bug is:<br/>
+    ```
+    while(index2 < list2.size()) {
+    	result.add(list2.get(index2));
+      	index1 += 1;
+    ```
+    Since it says increase index1 instead of index2, the condition of the while loop will always be met, and it becomes an infinite loop.<br/>
+    Thus, it goes out of memory.<br/>
 
 2. In ArrayList, method reversedInPlace, the failure input is:<br/>
     ```
@@ -32,11 +32,11 @@ Part 1
     assertArrayEquals(new int[]{ 2, 3 }, input1);
     }
     ```
-  the symptom: returns {2,2} when {2,3} is expected<br/>
-  the bug is:<br/>
-  ```
-  for(int i = 0; i < arr.length; i += 1) {
+    the symptom: returns {2,2} when {2,3} is expected<br/>
+    the bug is:<br/>
+    ```
+    for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
-  }
-  ```
-The code above changes the original data in arr so we will get the same number for the first half and the last half.<br/>
+    }
+    ```
+    The code above changes the original data in arr so we will get the same number for the first half and the last half.<br/>
