@@ -64,14 +64,14 @@ my code does not work at all.
 * Values of the relevant arguments: localhost:5002
 * Values of relevant fields of the class: Nothing is changed in this method. We only open up the webpage.
 
-![]((lab-2-screenshots/add1.png)
+![](lab-2-screenshots/add1.png)
 There is a null pointer exception that I don't know how to fix.
 * Method called: handleRequest
 * Values of the relevant arguments:  localhost:5002/add?s=apple
 * Values of relevant fields of the class: ArrayList items = [apple]
 * Change: when handleRequest is called, "apple" is added to Arraylist items.
 
-![]((lab-2-screenshots/search.png)
+![](lab-2-screenshots/search.png)
 * Method called: handleRequest
 * Values of the relevant arguments: localhost:5002/search?s=app
 * Values of relevant fields of the class: <br/>
