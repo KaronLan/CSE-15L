@@ -1,5 +1,83 @@
 ## Lab Report 2
 **Part 1**
+The below is my code:
+```
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class SearchEngineHandler implements URLHandler {
+    ArrayList <String> items = new ArrayList <String>();
+
+   
+    public String handleRequest(URI url) {
+        if(url.getPath().equals("/")){
+            return  "Let's start!";
+        }
+
+        else if (url.getPath().contains("/add")) {
+            String[] parameters = url.getQuery().split("=");
+           // if (parameters[0].equals("s")){
+                items.add(parameters[1]);
+           // } 
+               return "Word"+ parameters[1] +"added successfully";
+        }
+        else {
+            System.out.println("Path: " + url.getPath());
+
+            if (url.getPath().contains("/search")){
+                String[] search = url.getQuery().split("=");
+                if (search[0].equals("s")){
+                    String searchReturn = ""; 
+                    for(String x: items){
+                        if(x.contains(search[1])){
+                            searchReturn += x;
+                            searchReturn += " and ";
+                        }
+                    }
+                    return searchReturn;
+                }
+            }
+            return "404 Not Found!";
+        }
+        
+    }
+
+}
+
+class SearchEngine {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+```
+![]()
+my code does not work at all.
+* Method called: handleRequest
+* Values of the relevant arguments: localhost:5002
+* Values of relevant fields of the class: Nothing is changed in this method. We only open up the webpage.
+
+![]()
+There is a null pointer exception that I don't know how to fix.
+* Method called: handleRequest
+* Values of the relevant arguments:  localhost:5002/add?s=apple
+* Values of relevant fields of the class: ArrayList items = [apple]
+* Change: when handleRequest is called, "apple" is added to Arraylist items.
+
+![]()
+* Method called: handleRequest
+* Values of the relevant arguments: localhost:5002/search?s=app
+* Values of relevant fields of the class: <br/>
+ArrayList items = [apple]. ArrayList output = [apple]
+* Change: when handleRequest is called, we loop through ArrayList items to see if there is a word containing "app" the query.
+
 
 **Part 2**
 1. In ListExample, method filter, the failure inducing input is:<br/>
