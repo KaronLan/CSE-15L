@@ -26,7 +26,7 @@ Part 1
 2. In ArrayList, method reversedInPlace, the failure input is:<br/>
     ```
     @Test
-  public void testReverseInPlace2(){
+    public void testReverseInPlace2(){
     int[] input1 = { 3, 2 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 2, 3 }, input1);
