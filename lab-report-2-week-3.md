@@ -39,4 +39,4 @@ Part 1
       arr[i] = arr[arr.length - i - 1];
   }
   ```
-    The code above changes the original data in arr so we will get the same number for the first half and the last half.
+The code above changes the original data in arr so we will get the same number for the first half and the last half.
