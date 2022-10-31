@@ -11,6 +11,7 @@ Here is the link to my
 * [lab report 0](https://github.com/KaronLan/cse15l-lab-reports/blob/main/lab-report-1-week-0.md).
 * [Lab report 1](lab-report-1-week-1.html).
 * [Lab report 2](lab-report-2-week-3.html).
+* [Lab report 3](lab-report-3-week-5.html).
 
 There is also another [link for cats](cats.md).
 
@@ -18,8 +19,6 @@ Finally a picture of a cat.![cat](image/cat%20ascii.png).
 
 
 There will be more lab reports coming up.
-* Lab report 2
-* Lab report 3
 * Lab report 4
 * Lab report 5
 
