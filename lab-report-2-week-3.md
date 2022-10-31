@@ -1,6 +1,6 @@
 ## Lab Report 2
 **Part 1**
-The below is my code:
+Below is my code:
 ```
 import java.io.IOException;
 import java.net.URI;
