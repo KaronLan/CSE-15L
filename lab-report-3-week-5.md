@@ -2,6 +2,7 @@
 
 `grep -l`: it list all the file names of what ever grep finds. 
 
+
 `$ grep -l "emergency" technical/*/*.txt`<br/>
 result:
 ```
@@ -35,6 +36,7 @@ This command is printing all the text file names that contains the word "emergen
 It is very helpful because `grep "emergency" technical/*/.txt` prints about five pages of contents and is very hard to read.<br/>
 Thus by only printing the file name, it will be easier to find out what files contains our target.<br/>
 
+
 `$ grep -l "what" plos/*.txt`<br/>
 result:
 ```
@@ -57,6 +59,7 @@ I went into the directory to look for "what" specifically in plos directory.
 It is useful because I am only looking for the file names, and do not care about the sentences in the files.<br/>
 This command line options eliminate the time it takes for the terminal to print out the content and also my time to read.<br/>
 
+
 `$ grep -l "emergency" plos/*.txt`<br/>
 result:
 ```
@@ -70,9 +73,11 @@ plos/pmed.0020140.txt
 This command is printing all the text file names that contains the word "emergency" in `technical/plos`.<br/>
 It makes it very easy to save those file names into a file and make use of the information.<br/>
 
+
 `grep -l`: ignore case <br/>
 
-`$ grep -i "emergency" technical/911report/*9*.txt`
+
+`$ grep -i "emergency" technical/911report/*9*.txt`<br/>
 result:
 ```
  Emergency response is a product of preparedness. On the morning of September 11,
@@ -95,7 +100,8 @@ result:
 This command is printing out all the sentences containing "emergency", no matter if it is uppercase or lowercase.<br/>
 It can be very helpful when we need any content related to the target. We wouldn't want to miss it because of case. <br/>
 
-`grep -i -l "emergency" technical/*/*.txt`
+
+`grep -i -l "emergency" technical/*/*.txt`<br/>
 result:
 ```
 technical/911report/chapter-1.txt
@@ -124,7 +130,8 @@ This command line prints out the file names of text files that contains "emergen
 It result in more names than the command `$ grep -l "emergency" technical/*/*.txt`.
 I think it is useful because I get more related information about emergency without reading all the text containing the word.
 
-`$ grep -i "emergency" technical/biomed/*.txt`
+
+`$ grep -i "emergency" technical/biomed/*.txt`<br/>
 result:
 ```
 technical/biomed/1471-2334-3-11.txt:        A total of 296 patients were evaluated in the emergency
@@ -178,4 +185,151 @@ technical/biomed/rr37.txt:        reliance on emergency department for urgent as
 ```
 This command line prints out the file names and the lines that contains "emergency" and "Emergency" in technical/biomed.<br/>
 It is very useful when we want to scan through the material realted to emergency and roughly understand what's going without going into the file until we find something that interest us. Then we can follow the path listed on the left to go into the file and read.<br/>
+
+
+`grep -c`: it list all the file names and count of lines matching the target. 
+
+`$ grep -c "emergency" technical/biomed/*.txt`<br/>
+result:
+```
+technical/biomed/1468-6708-3-1.txt:0
+technical/biomed/1468-6708-3-10.txt:0
+technical/biomed/1468-6708-3-3.txt:0
+...
+technical/biomed/rr37.txt:4
+technical/biomed/rr73.txt:0
+technical/biomed/rr74.txt:0
+```
+This command prints out all the file names in `technical/biomed` with the count of targets in the file. It is a very very long list so I delete most of it, but most files has a count of 0. I think it will be useful if I want to know which files contain more of the related informtaion, but it will be a lot of work to browse through.
+
+
+`$ grep -c "emergency." technical/biomed/*9.txt`<br/>
+result:
+```
+technical/biomed/1471-2091-2-9.txt:0
+technical/biomed/1471-2105-2-9.txt:0
+technical/biomed/1471-2121-3-19.txt:0
+technical/biomed/1471-213X-1-9.txt:0
+technical/biomed/1471-2156-4-9.txt:0
+technical/biomed/1471-2164-2-9.txt:0
+technical/biomed/1471-2164-3-19.txt:0
+technical/biomed/1471-2164-3-29.txt:0
+technical/biomed/1471-2164-3-9.txt:0
+technical/biomed/1471-2164-4-19.txt:0
+technical/biomed/1471-2172-2-9.txt:0
+technical/biomed/1471-2172-3-9.txt:0
+technical/biomed/1471-2180-1-29.txt:0
+technical/biomed/1471-2180-2-29.txt:0
+technical/biomed/1471-2180-3-9.txt:0
+technical/biomed/1471-2202-2-19.txt:0
+technical/biomed/1471-2202-2-9.txt:0
+technical/biomed/1471-2202-3-19.txt:0
+technical/biomed/1471-2210-2-9.txt:0
+technical/biomed/1471-2229-2-9.txt:0
+technical/biomed/1471-2288-1-9.txt:0
+technical/biomed/1471-2288-3-9.txt:0
+technical/biomed/1471-2296-3-19.txt:0
+technical/biomed/1471-2334-1-9.txt:0
+technical/biomed/1471-2334-2-29.txt:0
+technical/biomed/1471-2334-3-9.txt:0
+technical/biomed/1471-2350-3-9.txt:0
+technical/biomed/1471-2369-3-9.txt:0
+technical/biomed/1471-2407-1-19.txt:0
+technical/biomed/1471-2407-2-19.txt:0
+technical/biomed/1471-2407-2-9.txt:0
+technical/biomed/1471-244X-2-9.txt:0
+technical/biomed/1471-2458-1-9.txt:6
+technical/biomed/1471-2458-3-9.txt:0
+technical/biomed/1472-6793-2-19.txt:0
+technical/biomed/1472-6807-2-9.txt:0
+technical/biomed/1476-069X-2-9.txt:0
+technical/biomed/1477-7525-1-9.txt:0
+technical/biomed/1477-7827-1-9.txt:0
+technical/biomed/ar149.txt:0
+technical/biomed/ar309.txt:0
+technical/biomed/ar319.txt:0
+technical/biomed/ar409.txt:0
+technical/biomed/ar429.txt:0
+technical/biomed/ar619.txt:0
+technical/biomed/ar79.txt:0
+technical/biomed/ar799.txt:0
+technical/biomed/cc1529.txt:0
+technical/biomed/gb-2002-3-11-research0059.txt:0
+technical/biomed/gb-2002-3-12-research0079.txt:0
+technical/biomed/gb-2002-3-2-research0009.txt:0
+technical/biomed/gb-2002-3-4-research0019.txt:0
+technical/biomed/gb-2002-3-6-research0029.txt:0
+technical/biomed/gb-2002-3-8-research0039.txt:0
+technical/biomed/gb-2002-3-9-research0049.txt:0
+technical/biomed/gb-2003-4-2-r9.txt:0
+technical/biomed/gb-2003-4-6-r39.txt:0
+```
+This command prints out all the file in `technical/biomed` that takes the form of `*9.txt`.<br/>
+It becomes much easier to read when I restricted the files it can search.<br/>
+I am still looking for a way to make it only print the file name that contains the target instead of all the files.
+
+
+`$ grep -v -c "emergency" technical/biomed/*9.txt`<br/>
+result:
+```
+technical/biomed/1471-2091-2-9.txt:481
+technical/biomed/1471-2105-2-9.txt:455
+technical/biomed/1471-2121-3-19.txt:823
+technical/biomed/1471-213X-1-9.txt:736
+technical/biomed/1471-2156-4-9.txt:836
+technical/biomed/1471-2164-2-9.txt:857
+technical/biomed/1471-2164-3-19.txt:594
+technical/biomed/1471-2164-3-29.txt:408
+technical/biomed/1471-2164-3-9.txt:514
+technical/biomed/1471-2164-4-19.txt:553
+technical/biomed/1471-2172-2-9.txt:337
+technical/biomed/1471-2172-3-9.txt:396
+technical/biomed/1471-2180-1-29.txt:677
+technical/biomed/1471-2180-2-29.txt:273
+technical/biomed/1471-2180-3-9.txt:620
+technical/biomed/1471-2202-2-19.txt:562
+technical/biomed/1471-2202-2-9.txt:729
+technical/biomed/1471-2202-3-19.txt:542
+technical/biomed/1471-2210-2-9.txt:393
+technical/biomed/1471-2229-2-9.txt:799
+technical/biomed/1471-2288-1-9.txt:450
+technical/biomed/1471-2288-3-9.txt:793
+technical/biomed/1471-2296-3-19.txt:409
+technical/biomed/1471-2334-1-9.txt:372
+technical/biomed/1471-2334-2-29.txt:450
+technical/biomed/1471-2334-3-9.txt:437
+technical/biomed/1471-2350-3-9.txt:494
+technical/biomed/1471-2369-3-9.txt:401
+technical/biomed/1471-2407-1-19.txt:477
+technical/biomed/1471-2407-2-19.txt:563
+technical/biomed/1471-2407-2-9.txt:270
+technical/biomed/1471-244X-2-9.txt:540
+technical/biomed/1471-2458-1-9.txt:538
+technical/biomed/1471-2458-3-9.txt:394
+technical/biomed/1472-6793-2-19.txt:522
+technical/biomed/1472-6807-2-9.txt:364
+technical/biomed/1476-069X-2-9.txt:1263
+technical/biomed/1477-7525-1-9.txt:480
+technical/biomed/1477-7827-1-9.txt:778
+technical/biomed/ar149.txt:468
+technical/biomed/ar309.txt:352
+technical/biomed/ar319.txt:541
+technical/biomed/ar409.txt:527
+technical/biomed/ar429.txt:352
+technical/biomed/ar619.txt:358
+technical/biomed/ar79.txt:639
+technical/biomed/ar799.txt:467
+technical/biomed/cc1529.txt:462
+technical/biomed/gb-2002-3-11-research0059.txt:1336       
+technical/biomed/gb-2002-3-12-research0079.txt:1073       
+technical/biomed/gb-2002-3-2-research0009.txt:524
+technical/biomed/gb-2002-3-4-research0019.txt:692
+technical/biomed/gb-2002-3-6-research0029.txt:466
+technical/biomed/gb-2002-3-8-research0039.txt:357
+technical/biomed/gb-2002-3-9-research0049.txt:572
+technical/biomed/gb-2003-4-2-r9.txt:983
+technical/biomed/gb-2003-4-6-r39.txt:1008
+```
+This command prints out the file name and line count in `technical/biomed/*9.txt` that does not contain "emergency". <br/>
+It will be very useful when we want to find the file that does not have anything to do with the target, and have the biggest number of lines.
 
