@@ -20,8 +20,12 @@ The shortest code in my group is from Rui Li and Yunfei Yang: <br/>
 ![](lab-4-screenshots/wq.png)
 
 **Part 2**
-It took me 1 minute and 52 seconds to change the code from 10 to 1391 in TestDocSearch.java and test it on my friend's computer because my windows computer cannot run bash. I am very not familiar with her computer so it take me some time. <br/>
-It took me 1 minute and 7 seconds to do the same on remote (mainly because I have always been doing that because windows cannot run bash).  <br/>
-I prefer the first style if I have a mac right now, because I am more familiar with that, and I am not familiar enough with vim so I don't know who to undo changes and stuff, and it would take some time if I look them up.<br/>
-However, I will definitely prefer vim after I learn how to efficiently navigate and use vim codes because it will save me from downloading the file to my computer. <br/>
-I think it would be nice to use the first method if I write my code on my computer, and then try to move it to the remote. However, if the projects exists online or on the remote, I will use vim instead of downloading those files to my computer and then scp them to remote because it is a lot of work. I will definitely not do that if the files are huge or if I need to use something only remote computer has.
+
+1. It took me 1 minute and 52 seconds to change the code from 10 to 1391 in TestDocSearch.java and test it on my friend's computer because my windows computer cannot run bash.<br/>
+   I am very not familiar with her computer so it take me some time. <br/>
+2. It took me 1 minute and 7 seconds to do the same on remote (mainly because I have always been doing that because windows cannot run bash).  <br/>
+
+* I prefer the first style if I have a mac right now, because I am more familiar with that, and I am not familiar enough with vim so I don't know who to undo changes and stuff, and it would take some time if I look them up.<br/>
+* However, I will definitely prefer vim after I learn how to efficiently navigate and use vim codes because it will save me from downloading the file to my computer. <br/>
+
+* I think it would be nice to use the first method if I write my code on my computer, and then try to move it to the remote. <br/>However, if the projects exists online or on the remote, I will use vim instead of downloading those files to my computer and then scp them to remote because it is a lot of work.<br/> I will definitely not do that if the files are huge or if I need to use something only remote computer has.
