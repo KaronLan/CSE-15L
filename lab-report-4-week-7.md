@@ -9,7 +9,7 @@ The shortest code in my group is from Rui Li and Yunfei Yang: <br/>
 
 `vim<space>D<tab><enter>/start<enter>cebase<esc>n.n.:wq<enter>`<br/>
 * When I type `vim<space>D<tab><enter>`, I get into vim of DocSearchServer.java
-![](/lab-4-screenshots/vim D.png)
+![](lab-4-screenshots/vim%20D.png)
 * When I type `/start<enter>`, the curser jumped to the first "start" in the file.
 ![]()
 * When I type `cebase<esc>`, I delete the whole word of "start" using ce and enter insert mode. Then I type in base and enter normal mode.
