@@ -21,9 +21,8 @@ The shortest code in my group is from Rui Li and Yunfei Yang: <br/>
 
 **Part 2**
 
-1. It took me 1 minute and 52 seconds to change the code from 10 to 1391 in TestDocSearch.java and test it on my friend's computer because my windows computer cannot run bash.<br/>
-   I am very not familiar with her computer so it take me some time. <br/>
-2. It took me 1 minute and 7 seconds to do the same on remote (mainly because I have always been doing that because windows cannot run bash).  <br/>
+1. It took me 1 minute and 32 seconds to change the code from 10 to 1391 in TestDocSearch.java and scp to remote test it on the remote.<br/>
+2. It took me 1 minute and 7 seconds to do the same on remote.  <br/>
 
 * I prefer the first style if I have a mac right now, because I am more familiar with that, and I am not familiar enough with vim so I don't know who to undo changes and stuff, and it would take some time if I look them up.<br/>
 * However, I will definitely prefer vim after I learn how to efficiently navigate and use vim codes because it will save me from downloading the file to my computer. <br/>
