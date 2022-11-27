@@ -60,6 +60,7 @@ fi
 # Print the student's grade
 echo "Grade: $SCORE"
 ```
-I have trouble with opening the webpage in "http://ieng6-203.ucsd.edu:4001". I think it is because that I am not using school Wifi, but I am in TEXAS right now so I cannot.
-I also cannot run it on a local host because I have a windows computer, so it is not working for me.
-The following are those running on the terminal instead of the server.
+I have trouble with opening the webpage in "http://ieng6-203.ucsd.edu:4001". <br/>
+I think it is because that I am not using school Wifi, but I am in TEXAS right now so I cannot.<br/>
+I also cannot run it on a local host because I have a windows computer, so it is not working for me.<br/>
+The following are those running on the terminal instead of the server.<br/>
