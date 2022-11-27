@@ -13,6 +13,7 @@ Here is the link to my
 * [Lab report 2](lab-report-2-week-3.html).
 * [Lab report 3](lab-report-3-week-5.html).
 * [Lab report 4](lab-report-4-week-7.html).
+* [Lab report 5](lab-report-5-week-9.html).
 
 There is also another [link for cats](cats.md).
 
@@ -21,7 +22,6 @@ Finally a picture of a cat.![cat](image/cat%20ascii.png).
 
 There will be more lab reports coming up.
 
-* Lab report 5
 
 
 
